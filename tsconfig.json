@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "outDir": "./dist",
+    "strict": true,
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@core": ["./core"],
+      "@utils/*": ["./utils/*"],
+      "@modules/*": ["./modules/*"],
+      "@command-builder": ["./utils/command"],
+      "@button-builder": ["./utils/button"],
+      "@event-builder": ["./utils/event"]
+    },
+    "typeRoots": ["./src/types/index.d.ts"]
+  },
+  "exclude": ["node_modules"]
+}
