@@ -25,7 +25,7 @@
     "node-gyp": "^8.2.0",
     "opusscript": "^0.0.8",
     "reflect-metadata": "^0.1.13",
-    "sequelize": "^6.6.5",
+    "sequelize": "^6.21.2",
     "sqlite3": "^5.0.2",
     "ytdl-core": "^4.9.1",
     "ytpl": "^2.2.3"
